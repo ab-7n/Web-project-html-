@@ -104,3 +104,10 @@ nav .nava:hover{
     color: white;
     font-size: 1.4rem;
 }
+section.fiets{
+   
+    align-items: center;
+    padding: 2rem 0;
+    background-color:#f8f7fc;
+    
+}
