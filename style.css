@@ -111,3 +111,14 @@ section.fiets{
     background-color:#f8f7fc;
     
 }
+section.fiets.fietch{
+   
+    max-width: 1366px;
+    margin: 0 auto;
+    padding: 0 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+  
+}
