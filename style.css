@@ -95,3 +95,12 @@ nav .nava:hover{
     padding: 0.75rem 1.5rem;
     background-color: #3b043a;
 }
+.btn :hover{
+    background-color:#984497;
+    
+}
+.btn a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.4rem;
+}
