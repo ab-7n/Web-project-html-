@@ -28,7 +28,7 @@ nav.logo{
     align-items: center;
 }
 nav.logo h4{
-      flex-wrap: wrap;
+    flex-wrap: wrap;
     font-size: larger;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -49,6 +49,10 @@ nav .nava{
 nav .nava:hover{
     color: #e95fe2;
 }
+
+
+
+/*hero seci*/
 .hero{
     margin: 20px;
     
@@ -95,7 +99,7 @@ nav .nava:hover{
     padding: 0.75rem 1.5rem;
     background-color: #3b043a;
 }
-.btn :hover{
+ .btn :hover{
     background-color:#984497;
     
 }
@@ -104,6 +108,7 @@ nav .nava:hover{
     color: white;
     font-size: 1.4rem;
 }
+
 section.fiets{
    
     align-items: center;
@@ -122,6 +127,8 @@ section.fiets.fietch{
     flex-wrap: wrap;
   
 }
+
+
 .fietch h4{
     
    color: #984497;
@@ -156,6 +163,10 @@ section.fiets.fietch{
     color: #8f8e8e;
 }
 
+
+
+
+/*pohn*/
 .phon{
     padding-top: 5rem;
 
@@ -180,3 +191,59 @@ section.fiets.fietch{
    
     justify-content: flex-start;
 }
+.typhon{
+    margin: 2rem 0;
+    padding: 1;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.typhon img{
+    margin-bottom: 3rem;
+}
+.typhon img:hover{
+    scale: 1.1;
+}
+@media (max-width:500px){
+    nav img{
+        display: block;
+    }
+      
+    nav.navem{
+        
+        position: absolute;
+         left: 0;
+         top: 10vh;
+         flex-direction: column;
+         width: 100%;
+         
+         background-color: #984497;
+         padding: 2rem ;
+         display: none;
+         
+     }
+    
+    .navem.navli{
+       margin: 1rem;
+      
+      
+    }
+    .navem .navli a{
+        color: white;
+        
+        
+     }
+  
+}
+
+#bh{
+  border-radius: 30px;
+  box-shadow: 5px 5px 30px;
+}
+
+
+
+
+
+
