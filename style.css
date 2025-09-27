@@ -32,3 +32,8 @@ nav.logo h4{
     font-size: larger;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+nav .navem{
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+}
