@@ -146,3 +146,12 @@ section.fiets.fietch{
 .fietch .qoleces .qolce:hover{
     border: 2px solid darkmagenta;
 }
+.qoleces.qolce h3{
+    font-size: 1.6rem;
+    margin-bottom: 1;
+}
+.qoleces.qolce p{
+    font-size: 1.2rem;
+    text-align: center;
+    color: #8f8e8e;
+}
