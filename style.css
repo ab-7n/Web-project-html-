@@ -54,3 +54,15 @@ nav .nava:hover{
     
     background-color: #f8f7fc; 
 }
+.hersec{
+    
+    max-width: 1366px;/*ماتكون حجم الشاشه كامل الا اذا كانه صغير هاته*/
+    height: 90vh; /*كون طوله 90 وليس 90 للهيرو و10 للنافل*/
+    display: flex;
+    justify-content: space-between;/* يوزع العناصر علئ حجم الflex*/
+    align-items: center;
+    margin: 0 auto;  /*عملنا كلاسات وflex عشان يكونوا كامل ع الخط*/
+    padding: 0 5rem;
+    flex-wrap: wrap;
+    
+}
