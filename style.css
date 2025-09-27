@@ -46,3 +46,6 @@ nav .nava{
     color:rgb(94, 59, 94);
     font-size: 1.4rem;
 }
+nav .nava:hover{
+    color: #e95fe2;
+}
