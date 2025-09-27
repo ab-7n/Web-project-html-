@@ -86,3 +86,12 @@ nav .nava:hover{
 .hersec p span{
     color: #9b3799;
 }
+.hersec .btn{
+    width:10rem;
+    margin-top: 3rem;
+    border-radius: 0.5rem;
+    border: none;
+
+    padding: 0.75rem 1.5rem;
+    background-color: #3b043a;
+}
