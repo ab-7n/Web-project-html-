@@ -27,3 +27,6 @@ nav.logo{
     font-size: 2rem;/* عشان لو الخط بتلفون وكبر الصفحه يكون الخط طبيعي rem*/
     align-items: center;
 }
+nav.logo h4{
+    
+}
