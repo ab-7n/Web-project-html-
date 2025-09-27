@@ -4,3 +4,179 @@
     box-sizing: border-box;
     
 }
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+nav{
+    flex-wrap: wrap;
+    display: flex; /*جعل العناصر مع بعض  */ 
+    justify-content: space-between;  
+    align-items: center;
+    height: 10vh; /* حجمه من الشاشه 10vh*/
+    max-width: 1366px;
+    margin:0 auto; /*جعلهم بسطر واحد العناصر */
+    padding: 0 5rem;/* علئ كل الموقع*/
+}
+nav img{
+    display: none;
+}
+nav.logo{
+    
+    display: flex;
+    font-size: 2rem;/* عشان لو الخط بتلفون وكبر الصفحه يكون الخط طبيعي rem*/
+    align-items: center;
+}
+nav.logo h4{
+      flex-wrap: wrap;
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+nav .navem{
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+}
+nav .navem .navli{
+  padding: 0 1rem;
+}
+nav .nava{
+    flex-wrap: wrap;
+    text-decoration: none;
+    color:rgb(94, 59, 94);
+    font-size: 1.4rem;
+}
+nav .nava:hover{
+    color: #e95fe2;
+}
+.hero{
+    margin: 20px;
+    
+    background-color: #f8f7fc; 
+}
+.hersec{
+    
+    max-width: 1366px;/*ماتكون حجم الشاشه كامل الا اذا كانه صغير هاته*/
+    height: 90vh; /*كون طوله 90 وليس 90 للهيرو و10 للنافل*/
+    display: flex;
+    justify-content: space-between;/* يوزع العناصر علئ حجم الflex*/
+    align-items: center;
+    margin: 0 auto;  /*عملنا كلاسات وflex عشان يكونوا كامل ع الخط*/
+    padding: 0 5rem;
+    flex-wrap: wrap;
+    
+}
+.hersec .contt{
+    
+    flex-direction: column; 
+}
+ .hersec h4{
+    color: #711a69;
+    font-size: 1.6rem;
+    margin-bottom: 1rem; 
+}
+.hersec h1{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+.hersec p{
+    color: #727272;
+    font-size: 1.4rem;
+}
+.hersec p span{
+    color: #9b3799;
+}
+.hersec .btn{
+    width:10rem;
+    margin-top: 3rem;
+    border-radius: 0.5rem;
+    border: none;
+
+    padding: 0.75rem 1.5rem;
+    background-color: #3b043a;
+}
+.btn :hover{
+    background-color:#984497;
+    
+}
+.btn a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.4rem;
+}
+section.fiets{
+   
+    align-items: center;
+    padding: 2rem 0;
+    background-color:#f8f7fc;
+    
+}
+section.fiets.fietch{
+   
+    max-width: 1366px;
+    margin: 0 auto;
+    padding: 0 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+  
+}
+.fietch h4{
+    
+   color: #984497;
+   font-size: 1.6rem;
+   margin-bottom: 2rem ;
+}
+.fietch .qoleces{
+    display: flex;
+    justify-content: space-between;
+}
+.fietch .qoleces .qolce{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   background-color: white;
+   padding: 2rem;
+   max-width: 17rem;
+   border-radius: 1rem;
+   margin: 1rem;
+
+}
+.fietch .qoleces .qolce:hover{
+    border: 2px solid darkmagenta;
+}
+.qoleces.qolce h3{
+    font-size: 1.6rem;
+    margin-bottom: 1;
+}
+.qoleces.qolce p{
+    font-size: 1.2rem;
+    text-align: center;
+    color: #8f8e8e;
+}
+
+.phon{
+    padding-top: 5rem;
+
+}
+.phon.phonn{
+    max-width: 1.3rem;
+    margin: 0  ;
+    padding: 0 5rem;
+    display: flex;
+    flex-direction: column;
+
+}
+.phonn h4{
+    color: #9b3799;
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+
+}
+.phons{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+   
+    justify-content: flex-start;
+}
