@@ -160,3 +160,11 @@ section.fiets.fietch{
     padding-top: 5rem;
 
 }
+.phon.phonn{
+    max-width: 1.3rem;
+    margin: 0  ;
+    padding: 0 5rem;
+    display: flex;
+    flex-direction: column;
+
+}
