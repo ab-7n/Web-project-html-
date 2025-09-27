@@ -143,3 +143,6 @@ section.fiets.fietch{
    margin: 1rem;
 
 }
+.fietch .qoleces .qolce:hover{
+    border: 2px solid darkmagenta;
+}
