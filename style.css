@@ -66,3 +66,7 @@ nav .nava:hover{
     flex-wrap: wrap;
     
 }
+.hersec .contt{
+    
+    flex-direction: column; 
+}
