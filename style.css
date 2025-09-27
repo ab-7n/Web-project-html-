@@ -28,5 +28,7 @@ nav.logo{
     align-items: center;
 }
 nav.logo h4{
-    
+      flex-wrap: wrap;
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
