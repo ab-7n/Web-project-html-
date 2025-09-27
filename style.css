@@ -49,3 +49,8 @@ nav .nava{
 nav .nava:hover{
     color: #e95fe2;
 }
+.hero{
+    margin: 20px;
+    
+    background-color: #f8f7fc; 
+}
