@@ -70,3 +70,8 @@ nav .nava:hover{
     
     flex-direction: column; 
 }
+ .hersec h4{
+    color: #711a69;
+    font-size: 1.6rem;
+    margin-bottom: 1rem; 
+}
