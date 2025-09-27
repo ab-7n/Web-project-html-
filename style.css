@@ -168,3 +168,15 @@ section.fiets.fietch{
     flex-direction: column;
 
 }
+.phonn h4{
+    color: #9b3799;
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+
+}
+.phons{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+   
+    justify-content: flex-start;
+}
