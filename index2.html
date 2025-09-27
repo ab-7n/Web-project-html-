@@ -7,15 +7,17 @@
     <link rel="stylesheet" href="stayle.css">
     <script src="jquery-3.7.1.min.js"></script>
     <script>
-         $('#b').mouseenter(function(){
+        $(document).ready(function(){
+            $('#b').mouseenter(function(){
                 $('#h11').text('iphone 13 pro max')
                 $('#h55').text('السعر 500$')
             });
-             $('#b').mouseleave(function(){
+            $('#b').mouseleave(function(){
                 $('#h11').text("")
                 $('#h55').text('')
             });
-             $('#bb').mouseenter(function(){
+
+            $('#bb').mouseenter(function(){
                 $('#h12').text('Samsung Galaxy A12')
                 $('#h51').text('السعر 500$')
             });
@@ -23,7 +25,7 @@
                 $('#h12').text("")
                 $('#h51').text('')
             });
-             $('#b2').mouseenter(function(){
+            $('#b2').mouseenter(function(){
                 $('#h13').text('Huawei P50 pro')
                 $('#h52').text( 'السعر 350$')
             });
@@ -31,7 +33,7 @@
                 $('#h13').text("")
                 $('#h52').text('')
             });
-             $('#b1').mouseenter(function(){
+            $('#b1').mouseenter(function(){
                 $('#h14').text('Samsung Galaxy 11')
                 $('#h53').text( 'السعر 250')
             });
@@ -47,6 +49,17 @@
                 $('#h16').text("")
                 $('#h56').text('')
             });
+            $('#b4').mouseenter(function(){
+                $('#h17').text('iphon 14 pro max')
+                $('#h57').text( 'السعر 500')
+            });
+            $('#b4').mouseleave(function(){
+                $('#h17').text("")
+                $('#h57').text('')
+            });
+                    
+            
+        })
 
     </script>
 </head>
