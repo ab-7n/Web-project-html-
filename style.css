@@ -18,3 +18,6 @@ nav{
     margin:0 auto; /*جعلهم بسطر واحد العناصر */
     padding: 0 5rem;/* علئ كل الموقع*/
 }
+nav img{
+    display: none;
+}
