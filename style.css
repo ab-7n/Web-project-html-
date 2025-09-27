@@ -40,3 +40,9 @@ nav .navem{
 nav .navem .navli{
   padding: 0 1rem;
 }
+nav .nava{
+    flex-wrap: wrap;
+    text-decoration: none;
+    color:rgb(94, 59, 94);
+    font-size: 1.4rem;
+}
