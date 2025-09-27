@@ -37,3 +37,6 @@ nav .navem{
     list-style-type: none;
     flex-wrap: wrap;
 }
+nav .navem .navli{
+  padding: 0 1rem;
+}
