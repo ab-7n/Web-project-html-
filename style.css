@@ -122,3 +122,13 @@ section.fiets.fietch{
     flex-wrap: wrap;
   
 }
+.fietch h4{
+    
+   color: #984497;
+   font-size: 1.6rem;
+   margin-bottom: 2rem ;
+}
+.fietch .qoleces{
+    display: flex;
+    justify-content: space-between;
+}
