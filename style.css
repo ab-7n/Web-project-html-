@@ -132,3 +132,14 @@ section.fiets.fietch{
     display: flex;
     justify-content: space-between;
 }
+.fietch .qoleces .qolce{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   background-color: white;
+   padding: 2rem;
+   max-width: 17rem;
+   border-radius: 1rem;
+   margin: 1rem;
+
+}
